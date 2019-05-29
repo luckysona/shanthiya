@@ -1,8 +1,7 @@
-N=int(input())
-K=int(input())
-if(N>0 and K>0):
-  print(N**K)
-elif(K==0):
-  print(N)
+x,y=input().split()
+x=int(x)
+y=int(y)
+if(y==0):
+  print(x)
 else:
-  print("0")
+  print(x**y)
