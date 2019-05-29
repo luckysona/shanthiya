@@ -1,0 +1,11 @@
+palin=int(input())
+temp=palin
+rev=0
+while(palin>0):
+  modulo=palin%10
+  rev=rev*10+modulo
+  palin=palin//10
+if(temp==rev):
+  print("yes")
+else:
+  print("no")
