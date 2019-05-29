@@ -1,10 +1,10 @@
-palin=int(input())
-temp=palin
+ch=int(input())
+temp=ch
 rev=0
-while(palin>0):
-  modulo=palin%10
+while(ch>0):
+  modulo=ch%10
   rev=rev*10+modulo
-  palin=palin//10
+  ch=ch//10
 if(temp==rev):
   print("yes")
 else:
