@@ -3,6 +3,6 @@ N=int(N)
 K=int(K)
 digitlist=list(map(int,input().strip().split()))
 sum=0
-for i in range(1,K+1):
-    sum=sum+i
+for num in range(1,K+1):
+    sum=sum+num
 print(sum)
