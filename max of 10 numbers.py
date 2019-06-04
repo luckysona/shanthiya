@@ -1,2 +1,2 @@
-a,b,c,d,e,f,g,h,i,j=map(int,input().split())
-print(max(a,b,c,d,e,f,g,h,i,j))
+num2=map(int,input().split())
+print(max(num2))
