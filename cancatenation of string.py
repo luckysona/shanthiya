@@ -1,2 +1,3 @@
 s1,s2=input().split()
-print(s1+s2)
+s3=s1+s2
+print(s3)
