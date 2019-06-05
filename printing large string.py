@@ -1,8 +1,8 @@
-a,b=(input()).split()
-if(len(a)>len(b)):
-  print(a)
+s1,s2=(input()).split()
+if(len(s1)>len(s2)):
+  print(s1)
 else:
-  if(len(a)<len(b)):
-    print(b)
+  if(len(s1)<len(s2)):
+    print(s2)
   else:
-    print(a)
+    print(s1)
