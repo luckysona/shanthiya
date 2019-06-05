@@ -5,4 +5,4 @@ else:
   if(len(s1)<len(s2)):
     print(s2)
   else:
-    print(s1)
+    print(s2)
