@@ -1,3 +1,3 @@
 i=int(input())
-list=['zero','one','two','three','four','five','six','seven','eight','nine','ten']
+list=['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
 print(list[i])
